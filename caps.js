@@ -14,18 +14,23 @@ let details = {
 
 }
 
-events.on('pickup', (payload) => {
-    details.EVENT.event = 'pickup';
+function logger(payload, event) {
+    details.EVENT.event = event;
     details.EVENT.payload = payload;
     console.log(details);
+}
+
+
+events.on('pickup', (payload) => {
+    logger(payload, 'pickup')
 })
 
 events.on('in-transit', (payload) => {
-    details.EVENT.event = 'in-transit'
-    console.log(details);
+    logger(payload, 'in-transit')
 })
 
 events.on('delivered', (payload) => {
-    details.EVENT.event = 'delivered'
-    console.log(details);
+    logger(payload, 'delivered');
 })
+
+module.exports = logger;
