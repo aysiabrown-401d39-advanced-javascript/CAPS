@@ -1,0 +1,27 @@
+{
+  "name": "CAPS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caps.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "events": "^3.2.0",
+    "faker": "^5.1.0",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aysiabrown-401d39-advanced-javascript/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aysiabrown-401d39-advanced-javascript/CAPS/issues"
+  },
+  "homepage": "https://github.com/aysiabrown-401d39-advanced-javascript/CAPS#readme"
+}
