@@ -26,4 +26,5 @@
 - the tests also check to emsure we are waiting on timeouts for the driver
 - tests are currently throwing a `TypeError: wsModule.Server is not a constructor` when ran. Unsure and will troubleshoot later. Attempted mocking socket.io and socket.io-client and that still didn't resolve the issue.
 
-
+**UML**
+![](./assets/CAPS-Week3-UML.png)
