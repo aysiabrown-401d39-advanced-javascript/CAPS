@@ -16,8 +16,8 @@
 - run `npm i` within each individual directory for *caps*, *vendor* and *driver* the cloned repo in your terminal to install package.json dependencies
 
 **Initialize & Start Up**
-- run `node caps.js` in your terminal within your cloned repo *caps* subdirectory. `caps.js` is the hub of our sockets.
-- run `node vendor.js` in your terminal within your cloned repo *vendor* subdirectory
+- run `node queue-server.js` in your terminal within your cloned repo *caps-queue-server* subdirectory. `queue-server.js` is the hub of our sockets.
+- run `node flowers.js` and `node acme.js` in your terminal within your cloned repo *clients* subdirectory
 - run `node driver.js` in your terminal within your cloned repo *driver* subdirectory
 
 **Tests:**
