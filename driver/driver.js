@@ -1,7 +1,5 @@
 'use strict';
 
-// const events = require('./event');
-// events.on('pickup', transit)
 
 const io = require('socket.io-client')
 const host = 'http://localhost:3000/caps';
