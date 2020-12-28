@@ -4,8 +4,8 @@ const io = require('socket.io-client');
 const host = 'http://localhost:3000/caps'
 const capsConnect = io.connect(host);
 const faker = require('faker');
-const store = 'Dungeons & Dice'
-
+// const store = 'Dungeons & Dice'
+const store = 'ACME Widgets'
 
 
 setInterval(() => {  
